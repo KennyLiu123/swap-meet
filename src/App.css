@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+/* Add these styles to your existing App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px 0;
+}
+
+.app-footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  border-top: 1px solid #dee2e6;
+  margin-top: 40px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 15px;
+  }
+}
