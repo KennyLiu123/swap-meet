@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function Home() {
   return (
     <div className="container text-center mt-5">
-      <h1>Swap Meet Navigator</h1>
+      <h1>Flea Finder</h1>
       <p>Find vendors and items at your local swap meet!</p>
       
       <div className="row mt-5">
